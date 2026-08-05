@@ -1,5 +1,19 @@
 function Header(){
     return (
+        <>
+         <div className="topbar">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-12">
+                        
+                            <div className="topbar-content-info">
+                                <p>Exclusive Furniture Sale Up To 50% Off</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
         <header class="main-header">
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
@@ -9,7 +23,7 @@ function Header(){
                        
                         <div class="header-contact-info">
                             <div class="icon-box">
-                                <image src="images/icon-phone-primary.svg" alt="">
+                                <image src="images/icon-phone-primary.svg" alt=""/>
                             </div>
                             <div class="header-contact-info-content">
                                 <p>Need Help ?</p>
@@ -20,7 +34,7 @@ function Header(){
                     </div>
                     
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.svg" alt="Logo">
+                        <img src="images/logo.svg" alt="Logo"/>
                     </a>
                    
                     <div class="header-action-details">
@@ -28,7 +42,7 @@ function Header(){
                             <li>
                                 
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <img src="images/icon-search.svg" alt="">
+                                    <img src="images/icon-search.svg" alt=""/>
                                 </button>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -37,7 +51,7 @@ function Header(){
                                                 <i class="fa-solid fa-xmark"></i>
                                             </button>
                                             <div class="modal-search-form">
-                                                <input type="text" name="search" class="form-control" id="search" placeholder="Search Your Product">
+                                                <input type="text" name="search" class="form-control" id="search" placeholder="Search Your Product"/>
                                                 <button type="submit" class="modal-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                                             </div>
                                         </div>
@@ -45,9 +59,9 @@ function Header(){
                                 </div>
                                
                             </li>
-                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""></a></li>
-                            <li><a href="account-dashboard.html"><img src="images/icon-user-primary.svg" alt=""></a></li>
-                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""></a></li>
+                            <li><a href="account-wishlist.html"><img src="images/icon-wishlist-primary.svg" alt=""/></a></li>
+                            <li><a href="account-dashboard.html"><img src="images/icon-user-primary.svg" alt=""/></a></li>
+                            <li><a href="cart.html"><img src="images/icon-cart-primary.svg" alt=""/></a></li>
                         </ul>
                     </div>
                  
@@ -95,7 +109,7 @@ function Header(){
                                                             <div class="mega-menu-item-image">
                                                         <a href="products.html">
                                                             <figure class="image-anime">
-                                                                <img src="images/mega-menu-item-image-1.jpg" alt="">
+                                                                <img src="images/mega-menu-item-image-1.jpg" alt=""/>
                                                             </figure>
                                                         </a>
                                                     </div>
@@ -108,7 +122,7 @@ function Header(){
                                                                   <div class="mega-menu-item-image">
                                                         <a href="products.html">
                                                             <figure class="image-anime">
-                                                                <img src="images/mega-menu-item-image-2.jpg" alt="">
+                                                                <img src="images/mega-menu-item-image-2.jpg" alt=""/>
                                                             </figure>
                                                         </a>
                                                     </div>
@@ -120,7 +134,7 @@ function Header(){
                                                     <div class="mega-menu-item big-offer-box">
                                                          <div class="mega-menu-item-image">
                                                         <figure>
-                                                            <img src="images/mega-menu-item-image-3.jpg" alt="">
+                                                            <img src="images/mega-menu-item-image-3.jpg" alt=""/>
                                                         </figure>
                                                     </div>
                                                               <div class="mega-menu-item-content">
@@ -182,5 +196,8 @@ function Header(){
 			<div class="responsive-menu"></div>
 		</div>
 	</header>
+    </>
     );
 }
+
+export default Header;

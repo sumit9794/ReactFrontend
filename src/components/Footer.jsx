@@ -1,4 +1,4 @@
-export function Footer() {
+ function Footer() {
     return(
         <footer className="main-footer dark-section">
         <div className="container">
@@ -133,3 +133,4 @@ export function Footer() {
     </footer>
     );
 }
+export default Footer;
